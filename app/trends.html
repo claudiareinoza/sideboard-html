@@ -1,0 +1,166 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sideboard html</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div class="main-main-container">
+      <nav>
+        <div class="menu">
+          <a href="index.html" class="logo-box">
+            <img src="../images/logo-sideboard.png" width="200px" alt="logo sideboard">
+          </a>
+          <div class="tab">
+            <a href="index.html">Projects Overview</a>
+          </div>
+          <div class="tab">
+            <a href="dashboard.html">Dashboard</a>
+          </div>
+          <div class="tab active">
+            <a href="trends.html">Trends</a>
+          </div>
+          <div class="tab">
+            <a href="#">Admin</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="box-light__url">
+          <span>Please select the Metric to be displayed on the graph</span>
+          <div class="box-row__wrap">
+            <div class="radio">
+              <label class="radio--text">Cycle-Time
+                <span class="radio--box">
+                  <input type="radio" name="metrics">
+                </span>
+              </label>
+            </div>
+            <div class="radio">
+              <label class="radio--text">Added
+                <span class="radio--box">
+                  <input type="radio" name="metrics">
+                </span>
+              </label>
+            </div>
+            <div class="radio">
+              <label class="radio--text">Started
+                <span class="radio--box">
+                  <input type="radio" name="metrics">
+                </span>
+              </label>
+            </div>
+            <div class="radio">
+              <label class="radio--text">Finished
+                <span class="radio--box">
+                  <input type="radio" name="metrics">
+                </span>
+              </label>
+            </div>
+            <div class="radio">
+              <label class="radio--text">Accepted
+                <span class="radio--box">
+                  <input type="radio" name="metrics">
+                </span>
+              </label>
+            </div>
+            <div class="radio">
+              <label class="radio--text">Rejected
+                <span class="radio--box">
+                  <input type="radio" name="metrics">
+                </span>
+              </label>
+            </div>
+            <div class="radio">
+              <label class="radio--text">Points Accepted
+                <span class="radio--box">
+                  <input type="radio" name="metrics">
+                </span>
+              </label>
+            </div>
+            <div class="radio">
+              <label class="radio--text">Points Started
+                <span class="radio--box">
+                  <input type="radio" name="metrics">
+                </span>
+              </label>
+            </div>
+            <div class="radio">
+              <label class="radio--text">Points Delivered
+                <span class="radio--box">
+                  <input type="radio" name="metrics">
+                </span>
+              </label>
+            </div>
+            <div class="radio">
+              <label class="radio--text">Points Rejected
+                <span class="radio--box">
+                  <input type="radio" name="metrics">
+                </span>
+              </label>
+            </div>
+          </div>
+
+          <!-- <div class="radio" style="width:400px; height:30px;">
+            otra cosa
+          </div> -->
+      </div>
+
+      <div class="box-light__panel">
+
+
+      </div>
+
+      <div class="box-light__metric">
+        <h2>Metrics Graph</h2>
+      </div>
+
+      <div class="box-light__metric">
+
+
+      </div>
+    </div>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
