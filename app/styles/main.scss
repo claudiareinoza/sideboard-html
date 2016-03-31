@@ -141,6 +141,13 @@ hr {
   padding: 5px;
 }
 
+.bg-purple {
+  background-color: rgba($brand-purple, 0.8);
+  color: $white;
+  margin: 0;
+  padding: 5px;
+}
+
 .bg-grey {
   background-color: $light-grey;
   color: $white;
@@ -149,7 +156,8 @@ hr {
 }
 
 .dropdown-styles {
-  background: #E5373A url("../images/triangle.svg") no-repeat 197px 17px;
+  background: $brand-purple url("../images/triangle.svg") no-repeat 197px 17px;
+  opacity: 0.8;
   border-radius: 3px;
   border: none;
   color: #fff;
@@ -261,7 +269,7 @@ hr {
   justify-content: flex-start;
 
   &__border {
-    border-top: 1px solid $brand-red;
+    border-top: 1px solid $brand-purple;
   }
 }
 .box-row__wrap {
@@ -279,7 +287,7 @@ hr {
 
   &__metric {
     border-radius: 3px;
-    border: 2px solid $brand-red;
+    border: 1px solid $brand-purple;
     letter-spacing: 0.05rem;
     text-align: center;
     width: 15%;
