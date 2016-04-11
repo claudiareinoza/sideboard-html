@@ -42,8 +42,8 @@ input[type="url"], input[type="week"]{
 
   $brand-red: #E5373A;
   $brand-purple: #412D3F;
-  $dark-grey: #444;
-  $medium-grey: #999;
+  $dark-grey: rgba($light-purple, 0.8);
+  $medium-grey: rgba($light-purple, 0.5);
   $light-grey: #f1f1f1;
   $light: #f0f0f0;
   $white: #ffffff;
@@ -53,6 +53,9 @@ input[type="url"], input[type="week"]{
   $success: #3FB100;
   $warning: #FF7200;
 
+  $dark-purple: #422d3f;
+  $medium-purple: #60425c;
+  $light-purple: #613354;
 
 
 html, body {
@@ -64,7 +67,7 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6, p {
-  color: $dark-grey;
+  color: $brand-purple;
   font-weight: normal;
   margin: 5px 0;
 }
@@ -142,7 +145,7 @@ hr {
 }
 
 .bg-purple {
-  background-color: rgba($brand-purple, 0.8);
+  background-color: rgba($light-purple, 0.8);
   color: $white;
   margin: 0;
   padding: 5px;
@@ -156,8 +159,8 @@ hr {
 }
 
 .dropdown-styles {
-  background: $brand-purple url("../images/triangle.svg") no-repeat 197px 17px;
-  opacity: 0.8;
+  background: $light-purple url("../images/triangle.svg") no-repeat 197px 17px;
+  //opacity: 0.8;
   border-radius: 3px;
   border: none;
   color: #fff;
@@ -370,7 +373,7 @@ nav {
    color: $primary;
 
    &:hover {
-     background-color: rgba($primary, 0.4);
+     background-color: rgba($light-purple, 0.4);
    }
  }
 
